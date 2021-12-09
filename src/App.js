@@ -1,14 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react';
+//import Basics from './Hooks/useState/Basics';
+//import ArrayEx from './Hooks/useState/ArrayEx';
+//import ObjectEx from './Hooks/useState/ObjectEx';
+//import SimpleCounter from './Hooks/useState/SimpleCounter';
+import Login from './Hooks/useState/Login';
+const App = () =>{
+    return <>
+       <div className="container">
+          <Login />
+       </div>
+    </>
 
-import ContactApp from './ContactApp/ContactApp';
- class App extends Component {
-  render() {
-    return (
-      <div>
-        <ContactApp />
-      </div>
-    )
-  }
 }
-
 export default App;
